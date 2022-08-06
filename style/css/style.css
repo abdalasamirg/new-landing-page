@@ -57,7 +57,15 @@ html {
 
 .intro1 {
     position: absolute;
-    left: 60%;
+    z-index: -1;
+    left: 55%;
+    top: 5%;
+}
+
+.intro2 {
+    position: absolute;
+    z-index: -1;
+    left: -30%;
 }
 
 .sentece {
