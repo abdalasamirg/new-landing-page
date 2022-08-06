@@ -9,7 +9,8 @@ let p2 = document.querySelector(".p2")
 let p3 = document.querySelector(".p3")
 let track = document.querySelector(".track")
 let ps = document.querySelectorAll("p")
-let som = document.querySelectorAll(".som")
+let about = document.querySelector(".about")
+let istSpan = document.querySelector(".istSpan")
 
 setInterval(() => {
     if (window.innerWidth <= 853) {
@@ -19,16 +20,13 @@ setInterval(() => {
         p2.style.minWidth = "300px"
         p3.style.maxWidth = "300px"
         p3.style.minWidth = "300px"
-        som.style.marginLeft = "300px"
+        about.style.maxWidth = "400px"
+        istSpan.style.maxWidth = "200px"
+        about.style.textAlign = "center"
 
     }
     if (window.innerWidth <= 1068) {
-        button.onclick = function() {
 
-            links.style.display = "block"
-            button.textContent = "*"
-
-        }
     } else {
         links.style.display = "none"
         button.textContent = "0 0 0"
